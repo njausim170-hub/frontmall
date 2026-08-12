@@ -11,7 +11,7 @@
 
 ## Business details
 All read from frontmall_business() in inc/template-tags.php (filterable):
-- Name: Frontmall Online Shopping
+- Name: Frontmall Kenya
 - Phone / WhatsApp: +254 741 262 053
 - Email: info@frontmallke.com
 - Address: Ronald Ngala Street, Mozart Bet Building, 1st Floor, Room F25 (along Githurai 44 matatu stage), Nairobi CBD

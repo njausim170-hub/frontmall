@@ -10,8 +10,8 @@
  * it automatically falls back to the explicit SKU list for that funnel.
  *
  * HOW TO USE
- *   1. Upload this file to your theme folder (Frontmall theme root).
- *   2. Upload the 6 hero images to:  <theme>/lp-images/
+ *   1. This template ships with the theme (Frontmall theme root); do not re-upload it manually.
+ *   2. The 6 hero images ship with the theme in  <theme>/lp-images/
  *        hero-lp-car-wash.jpg, hero-lp-egg-incubators.jpg,
  *        hero-lp-demolition-breakers.jpg, hero-lp-water-pumps.jpg,
  *        hero-lp-welding-machines.jpg, hero-lp-vacuum-cleaners.jpg
@@ -179,7 +179,7 @@ function fmlp_funnels() {
 /* Shared comparison rows (Frontmall vs ordinary shops). */
 function fmlp_compare_rows() {
 	return array(
-		'100% genuine products',
+		'Quality products, warranty where applicable',
 		'1-year warranty included',
 		'Free countrywide delivery',
 		'Pay on delivery in Nairobi',
@@ -468,7 +468,7 @@ get_header();
 					<div class="fmlp-hero-trust">
 						<span><?php echo fmlp_check(); ?> Free countrywide delivery</span>
 						<span><?php echo fmlp_check(); ?> 1-year warranty</span>
-						<span><?php echo fmlp_check(); ?> 100% genuine</span>
+						<span><?php echo fmlp_check(); ?> Quality products</span>
 					</div>
 				</div>
 
@@ -482,7 +482,7 @@ get_header();
 			<div class="fmlp-stats-grid">
 				<div class="fmlp-stat"><b>1-2 Days</b><span>Countrywide delivery</span></div>
 				<div class="fmlp-stat"><b>1 Year</b><span>Warranty included</span></div>
-				<div class="fmlp-stat"><b>100%</b><span>Genuine products</span></div>
+				<div class="fmlp-stat"><b>Quality</b><span>Products with warranty support</span></div>
 				<div class="fmlp-stat"><b>KSh 0</b><span>Deposit - pay on delivery*</span></div>
 			</div>
 		</div>

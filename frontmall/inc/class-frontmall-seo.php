@@ -95,9 +95,9 @@ final class SEO {
 		$text  = '';
 
 		if ( is_front_page() ) {
-			$text = 'Shop power tools, solar systems, generators, home appliances and electronics online at ' . $brand . '. Genuine brands, countrywide delivery and pay on delivery in Nairobi, Kenya.';
+			$text = 'Shop power tools, solar systems, generators, home appliances and electronics online at ' . $brand . '. Quality brands, countrywide delivery and pay on delivery in Nairobi, Kenya.';
 		} elseif ( function_exists( 'is_shop' ) && is_shop() ) {
-			$text = 'Browse the full ' . $b['short'] . ' catalogue: power tools, solar, generators, appliances and electronics. Genuine brands, fair prices and fast delivery across Kenya.';
+			$text = 'Browse the full ' . $b['short'] . ' catalogue: power tools, solar, generators, appliances and electronics. Quality brands, fair prices and fast delivery across Kenya.';
 		} elseif ( function_exists( 'is_product' ) && is_product() ) {
 			$product = wc_get_product( get_the_ID() );
 			if ( $product ) {
@@ -122,7 +122,7 @@ final class SEO {
 			$text = get_bloginfo( 'description' );
 		}
 		if ( $this->is_meaningful( $text ) === false ) {
-			$text = 'Shop power tools, solar, generators, appliances and electronics online at ' . $brand . '. Genuine brands and countrywide delivery in Kenya.';
+			$text = 'Shop power tools, solar, generators, appliances and electronics online at ' . $brand . '. Quality brands and countrywide delivery in Kenya.';
 		}
 
 		$text = wp_strip_all_tags( (string) $text );
@@ -143,7 +143,7 @@ final class SEO {
 		$count = (int) $term->count;
 		$qty   = $count > 0 ? ( $count . '+ ' ) : '';
 		return sprintf(
-			'Shop %s online at %s. %sgenuine-brand products with fast, countrywide delivery and pay on delivery in Nairobi, Kenya.',
+			'Shop %s online at %s. %squality-brand products with fast, countrywide delivery and pay on delivery in Nairobi, Kenya.',
 			$name,
 			$b['name'],
 			$qty
