@@ -70,11 +70,11 @@ final class Landing {
 	public function heal_funnel_pages(): void {
 		foreach ( self::FUNNEL_SLUGS as $slug ) {
 			$page = get_page_by_path( $slug );
-			if ( \! $page instanceof \WP_Post || 'page' \!== $page->post_type ) {
+			if ( ! $page instanceof \WP_Post || 'page' !== $page->post_type ) {
 				continue;
 			}
 			$current = (string) get_post_meta( $page->ID, '_wp_page_template', true );
-			if ( self::TEMPLATE \!== $current ) {
+			if ( self::TEMPLATE !== $current ) {
 				update_post_meta( $page->ID, '_wp_page_template', self::TEMPLATE );
 			}
 		}
