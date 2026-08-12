@@ -125,7 +125,7 @@ final class WooCommerce {
 
 	public function trust_badges(): void {
 		$items = array(
-			array( __( '100% Genuine', 'frontmall' ), __( 'Warranty-backed brands', 'frontmall' ) ),
+			array( __( 'Quality Products', 'frontmall' ), __( 'Warranty support where applicable', 'frontmall' ) ),
 			array( __( 'Fast Delivery', 'frontmall' ), __( 'Same/next-day in Nairobi', 'frontmall' ) ),
 			array( __( 'Secure Payment', 'frontmall' ), __( 'M-Pesa, card or on delivery', 'frontmall' ) ),
 			array( __( 'Real Support', 'frontmall' ), __( 'Call, WhatsApp or email', 'frontmall' ) ),

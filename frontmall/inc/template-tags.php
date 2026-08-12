@@ -16,7 +16,7 @@ defined( 'ABSPATH' ) || exit;
  */
 function frontmall_business(): array {
 	$d = array(
-		'name'     => 'Frontmall Online Shopping',
+		'name'     => 'Frontmall Kenya',
 		'short'    => 'Frontmall',
 		'phone'    => '+254 741 262 053',
 		'whatsapp' => '254741262053',
@@ -216,7 +216,7 @@ function frontmall_info_links(): array {
 function frontmall_slide_defaults(): array {
 	$shop = function_exists( 'wc_get_page_permalink' ) ? wc_get_page_permalink( 'shop' ) : home_url( '/shop/' );
 	return array(
-		array( 'eyebrow' => __( 'Powering Kenya', 'frontmall' ),  'title' => __( 'Solar, Power & Home Essentials', 'frontmall' ), 'text' => __( 'Genuine products at honest prices, delivered fast across the country.', 'frontmall' ), 'btn' => __( 'Shop Now', 'frontmall' ),   'link' => $shop ),
+		array( 'eyebrow' => __( 'Powering Kenya', 'frontmall' ),  'title' => __( 'Solar, Power & Home Essentials', 'frontmall' ), 'text' => __( 'Quality products at honest prices, delivered fast across the country.', 'frontmall' ), 'btn' => __( 'Shop Now', 'frontmall' ),   'link' => $shop ),
 		array( 'eyebrow' => __( 'Solar Season', 'frontmall' ),    'title' => __( 'Solar Panels & Street Lights', 'frontmall' ),   'text' => __( 'Cut your power bills with reliable solar, backed by warranty.', 'frontmall' ),      'btn' => __( 'Shop Solar', 'frontmall' ), 'link' => $shop ),
 		array( 'eyebrow' => __( 'Tools & Hardware', 'frontmall' ), 'title' => __( 'Power Tools Built to Last', 'frontmall' ),      'text' => __( 'Makita, DeWalt, Total, Ingco and more at the best prices.', 'frontmall' ),          'btn' => __( 'Shop Tools', 'frontmall' ), 'link' => $shop ),
 	);

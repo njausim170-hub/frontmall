@@ -21,7 +21,7 @@ final class Pages {
 
 	private static ?Pages $instance = null;
 	private const VERSION_OPT     = 'frontmall_pages_version';
-	private const CONTENT_VERSION = '6';
+	private const CONTENT_VERSION = '7';
 
 	public static function instance(): Pages {
 		return self::$instance ??= new self();
@@ -228,14 +228,14 @@ final class Pages {
 				'title'   => 'About Us',
 				'content' =>
 					"<h2>Who We Are</h2>"
-					. "<p>{$name} (trading as {$b['short']}) is a Kenyan-owned and Kenyan-operated online retailer supplying genuine solar power systems, inverters, generators, power and hand tools, electronics and home appliances to homes, contractors and businesses across Kenya and the wider East African region. We operate a physical premises at {$addr1}, {$addr2}, and we fulfil and ship orders nationwide.</p>"
+					. "<p>{$name} (trading as {$b['short']}) is a Kenyan-owned and Kenyan-operated online retailer supplying quality solar power systems, inverters, generators, power and hand tools, electronics and home appliances to homes, contractors and businesses across Kenya and the wider East African region. We operate a physical premises at {$addr1}, {$addr2}, and we fulfil and ship orders nationwide.</p>"
 					. "<h2>What We Sell</h2>"
 					. "<p>Our catalogue spans over one thousand carefully selected products across departments including Solar Panels, Inverters, Solar Controllers, Solar Street and Wall Lights, Generators, Power and Hand Tools, Home Appliances, Home Theatres, Consumer Electronics, Water Pumps, Water Dispensers, Phones and Accessories, and more. We stock recognised brands such as Makita, DeWalt, Total, Ingco, Solarmax, Jadever, Hisense and many others, alongside quality value options.</p>"
 					. "<h2>Our Mission</h2>"
-					. "<p>Our mission is simple: make genuine, fairly priced products easy to buy and quick to receive, backed by real human support. We believe every customer, whether furnishing a home, powering a farm or equipping a worksite, deserves authentic goods, transparent pricing and dependable after-sales care.</p>"
+					. "<p>Our mission is simple: make quality, fairly priced products easy to buy and quick to receive, backed by real human support. We believe every customer, whether furnishing a home, powering a farm or equipping a worksite, deserves authentic goods, transparent pricing and dependable after-sales care.</p>"
 					. "<h2>Why Customers Trust {$b['short']}</h2>"
 					. "<ul>"
-					. "<li><strong>Genuine products</strong> sourced from reputable manufacturers and authorised distributors, backed by manufacturer warranties where applicable.</li>"
+					. "<li><strong>Quality products from established suppliers</strong>, backed by manufacturer warranties where applicable.</li>"
 					. "<li><strong>Transparent pricing</strong> displayed in Kenyan Shillings (KES), inclusive of applicable taxes, with delivery costs shown clearly before you pay.</li>"
 					. "<li><strong>Fast, countrywide delivery</strong> and in-person pickup at our Nairobi CBD premises.</li>"
 					. "<li><strong>Responsive support</strong> by phone, WhatsApp and email during business hours.</li>"

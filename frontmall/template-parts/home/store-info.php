@@ -29,7 +29,7 @@ $fm = frontmall_business();
     <div class="fm-storeinfo__col fm-storeinfo__why">
       <h3><?php esc_html_e( 'Why shop with Frontmall', 'frontmall' ); ?></h3>
       <ul>
-        <li><?php esc_html_e( 'Genuine, warranty-backed brands', 'frontmall' ); ?></li>
+        <li><?php esc_html_e( 'Quality, warranty-backed brands', 'frontmall' ); ?></li>
         <li><?php esc_html_e( 'Transparent prices in KES, taxes included', 'frontmall' ); ?></li>
         <li><?php esc_html_e( 'Pay on delivery, M-Pesa or card', 'frontmall' ); ?></li>
         <li><?php esc_html_e( 'A real shop you can visit in Nairobi CBD', 'frontmall' ); ?></li>

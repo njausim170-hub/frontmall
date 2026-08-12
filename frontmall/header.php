@@ -23,7 +23,7 @@ $fm = frontmall_business();
 
 <div class="fm-topbar">
 	<div class="fm-container fm-topbar__inner">
-		<p class="fm-topbar__msg"><?php esc_html_e( 'Genuine products. Fast countrywide delivery. Pay on Delivery accepted - cash or M-Pesa.', 'frontmall' ); ?></p>
+		<p class="fm-topbar__msg"><?php esc_html_e( 'Quality Products from Established Suppliers. Fast countrywide delivery. Pay on Delivery accepted - cash or M-Pesa.', 'frontmall' ); ?></p>
 		<ul class="fm-topbar__links">
 			<li><a href="tel:<?php echo esc_attr( preg_replace( '/\s+/', '', $fm['phone'] ) ); ?>"><?php echo esc_html( $fm['phone'] ); ?></a></li>
 			<li><a href="<?php echo esc_url( frontmall_whatsapp_url() ); ?>" target="_blank" rel="noopener"><?php esc_html_e( 'WhatsApp', 'frontmall' ); ?></a></li>

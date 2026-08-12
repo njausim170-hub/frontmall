@@ -7,7 +7,7 @@
 defined( 'ABSPATH' ) || exit;
 $items = array(
 	array( 'M9 17h6M5 17H3V6h13v11h-2M16 9h4l3 4v4h-3', __( 'Fast Countrywide Delivery', 'frontmall' ), __( 'Same/next-day in Nairobi', 'frontmall' ) ),
-	array( 'M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z M9 12l2 2 4-4', __( '100% Genuine Products', 'frontmall' ), __( 'Warranty-backed brands', 'frontmall' ) ),
+	array( 'M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z M9 12l2 2 4-4', __( 'Quality Products', 'frontmall' ), __( 'Warranty support where applicable', 'frontmall' ) ),
 	array( 'M5 4h14v16H5z M9 4v16 M12 8h4M12 12h4', __( 'Pay via M-Pesa or Card', 'frontmall' ), __( 'Secure checkout', 'frontmall' ) ),
 		array( 'M3 7h13v8H3z M16 10h3l2 3v2h-5 M7 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4z M17 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4z', __( 'Pay on Delivery Accepted', 'frontmall' ), __( 'Cash or M-Pesa on arrival', 'frontmall' ) ),
 	array( 'M4 4h16v12H4z M2 20h20 M8 8h8', __( 'Real Human Support', 'frontmall' ), __( 'Call, WhatsApp or email', 'frontmall' ) ),
